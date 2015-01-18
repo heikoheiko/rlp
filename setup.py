@@ -9,7 +9,6 @@ except ImportError:
 
 
 readme = open('README.rst').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 requirements = [
     # TODO: put package requirements here
@@ -21,9 +20,9 @@ test_requirements = [
 
 setup(
     name='rlp',
-    version='0.1.0',
+    version='0.1.1',
     description='RLP ("recursive length prefix") encoding is the main serialization format used in Ethereum',
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author='Vitalik Buterin',
     url='https://github.com/heikoheiko/rlp',
     packages=[
