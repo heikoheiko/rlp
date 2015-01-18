@@ -1,11 +1,6 @@
 ===============================
-Ethereum RLP ("recursive length prefix") encoding
+Ethereum RLP encoding
 ===============================
-
-
-.. image:: https://pypip.in/d/rlp/badge.png
-        :target: https://pypi.python.org/pypi/rlp
-
 
 RLP ("recursive length prefix") encoding is the main serialization format used in Ethereum
 
